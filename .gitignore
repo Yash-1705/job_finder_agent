@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+*.pyc
+job_search/
+master_tracker.csv
+test_jira.py
+jira_fields.txt
+job_search/
+master_tracker.csv
+test_jira.py
+jira_fields.txt
