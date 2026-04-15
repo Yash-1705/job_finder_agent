@@ -117,7 +117,9 @@ with sync_playwright() as p:
 
         # --- Gap analysis prompt ---
         prompt = f"""
-        You are a job application assistant.
+        You are a job application assistant. Read the candidate's CV, cover letter, github projects
+         or any other file they provide to you carefully before responding.
+        Do NOT suggest skills, tools, or projects the candidate already has listed on their CV.
 
         Here is the candidate's CV:
         {cv_text}
